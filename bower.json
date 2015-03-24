@@ -1,0 +1,17 @@
+{
+  "name": "Admin Theme",
+  "version": "0.0.1",
+  "authors": [
+    "Alejandro Rodriguez <alejandrorodriguezpena@gmail.com>"
+  ],
+  "description": "Panel de administracion de sistemas en AngularJS",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

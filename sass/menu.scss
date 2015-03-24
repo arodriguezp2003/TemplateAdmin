@@ -1,0 +1,26 @@
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-default 
+{
+	color:$colorBarra;
+	background-color: $barra ;
+	border-color: $lineaBarra;
+	border-bottom: 4px solid $lineaBarra;
+}
+.navbar-default .navbar-brand {
+	color: $colorBarra;
+}
+.navbar-default .navbar-toggle {
+	border-color: $colorBarra ;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: $colorBarra ;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: $lineaBarra;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+color: white;
+background-color: $lineaBarra;
+}

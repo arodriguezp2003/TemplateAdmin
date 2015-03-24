@@ -1,0 +1,35 @@
+
+$fondo : #E7E7E7;
+
+$barra : #3498DB;
+$lineaBarra : #2D80B6; 
+$colorBarra : white;
+
+$fondojum: #74A9CB;
+$lineajum: white;
+
+$fondoContainer : #f2f2f2;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800);
+
+@import 'header';
+@import 'menu';
+@import 'components';
+
+#container
+{
+	-moz-border-radius-topleft: 13px;
+	-moz-border-radius-topright: 13px;
+	-webkit-border-top-left-radius: 13px;
+	-webkit-border-top-right-radius: 13px;
+	background-color: $fondoContainer;
+	border-bottom: 10px solid #ddd;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	display: block;
+	margin-top: -100px;
+	padding-top: 20px;
+}
+
+
+
